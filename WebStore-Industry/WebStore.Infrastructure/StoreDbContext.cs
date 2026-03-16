@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebStore.Application.DTOs;
+using WebStore.Domain.Interfaces;
 
-namespace Webstore.Infrastructure;
+namespace Webstore.Infrastructure;         
 
 public sealed class StoreDbContext : DbContext
 {
@@ -16,6 +17,32 @@ public sealed class StoreDbContext : DbContext
     public DbSet<User>? Users { get; set; }
     public DbSet<Admin>? Admins { get; set; }
     public DbSet<Customer>? Customers { get; set; }
+
+    public override int SaveChanges()
+    {
+        foreach (var entry in ChangeTracker.Entries())
+        {
+            if (entry.State != EntityState.Deleted || entry.Entity is not IDisable disableEntity) continue;
+
+            entry.State = EntityState.Modified;
+            disableEntity.Activity.IsActive = false;
+        }
+
+        return base.SaveChanges();
+    }
+
+    public override Task<int> SaveChangesAsync(CancellationToken cancellationToken)
+    {
+        foreach (var entry in ChangeTracker.Entries())
+        {
+            if (entry.State != EntityState.Deleted || entry.Entity is not IDisable disableEntity) continue;
+
+            entry.State = EntityState.Modified;
+            disableEntity.Activity.IsActive = false;
+        }
+
+        return base.SaveChangesAsync(cancellationToken);
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

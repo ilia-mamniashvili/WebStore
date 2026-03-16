@@ -1733,6 +1733,16 @@
         "runtime": {
           "bin/placeholder/WebStore.Application.dll": {}
         }
+      },
+      "WebStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/WebStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebStore.Domain.dll": {}
+        }
       }
     }
   },
@@ -5034,6 +5044,11 @@
       "type": "project",
       "path": "../WebStore.Application/WebStore.Application.csproj",
       "msbuildProject": "../WebStore.Application/WebStore.Application.csproj"
+    },
+    "WebStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../WebStore.Domain/WebStore.Domain.csproj",
+      "msbuildProject": "../WebStore.Domain/WebStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5042,27 +5057,28 @@
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.13",
       "Microsoft.Extensions.Configuration >= 10.0.3",
       "Microsoft.Extensions.Configuration.Json >= 10.0.3",
-      "WebStore.Application >= 1.0.0"
+      "WebStore.Application >= 1.0.0",
+      "WebStore.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\imamniashvili\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Wafo\\.nuget\\packages\\": {},
+    "D:\\VStudioTools\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\imamniashvili\\Desktop\\WebStore\\WebStore-KN-Industry-WebStore\\WebStore.Infrastructure\\WebStore.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Wafo\\source\\repos\\WebStore\\WebStore-Industry\\WebStore.Infrastructure\\WebStore.Infrastructure.csproj",
       "projectName": "WebStore.Infrastructure",
-      "projectPath": "C:\\Users\\imamniashvili\\Desktop\\WebStore\\WebStore-KN-Industry-WebStore\\WebStore.Infrastructure\\WebStore.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\imamniashvili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\imamniashvili\\Desktop\\WebStore\\WebStore-KN-Industry-WebStore\\WebStore.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Wafo\\source\\repos\\WebStore\\WebStore-Industry\\WebStore.Infrastructure\\WebStore.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Wafo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wafo\\source\\repos\\WebStore\\WebStore-Industry\\WebStore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\VStudioTools\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\imamniashvili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wafo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5071,14 +5087,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\imamniashvili\\Desktop\\WebStore\\WebStore-KN-Industry-WebStore\\WebStore.Application\\WebStore.Application.csproj": {
-              "projectPath": "C:\\Users\\imamniashvili\\Desktop\\WebStore\\WebStore-KN-Industry-WebStore\\WebStore.Application\\WebStore.Application.csproj"
+            "C:\\Users\\Wafo\\source\\repos\\WebStore\\WebStore-Industry\\WebStore.Application\\WebStore.Application.csproj": {
+              "projectPath": "C:\\Users\\Wafo\\source\\repos\\WebStore\\WebStore-Industry\\WebStore.Application\\WebStore.Application.csproj"
+            },
+            "C:\\Users\\Wafo\\source\\repos\\WebStore\\WebStore-Industry\\WebStore.Domain\\WebStore.Domain.csproj": {
+              "projectPath": "C:\\Users\\Wafo\\source\\repos\\WebStore\\WebStore-Industry\\WebStore.Domain\\WebStore.Domain.csproj"
             }
           }
         }
@@ -5093,7 +5113,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -5134,7 +5154,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
