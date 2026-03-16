@@ -1,4 +1,6 @@
-﻿namespace WebStore.Domain.Interfaces;
+﻿using WebStore.Application.DTOs;
+
+namespace WebStore.Domain.Interfaces;
 
 public interface IDisable
 {

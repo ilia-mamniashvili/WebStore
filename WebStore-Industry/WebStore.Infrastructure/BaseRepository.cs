@@ -178,6 +178,7 @@ internal abstract class BaseRepository<T> : IDisposable, IAsyncDisposable, IBase
     {
         if (!_disposed)
         {
+            await Task.CompletedTask;
 
             _disposed = true;
         }

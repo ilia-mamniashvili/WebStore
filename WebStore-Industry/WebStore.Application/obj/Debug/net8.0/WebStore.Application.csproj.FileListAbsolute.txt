@@ -1,0 +1,12 @@
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\bin\Debug\net8.0\WebStore.Application.deps.json
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\bin\Debug\net8.0\WebStore.Application.dll
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\bin\Debug\net8.0\WebStore.Application.pdb
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\WebStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\WebStore.Application.AssemblyInfoInputs.cache
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\WebStore.Application.AssemblyInfo.cs
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\WebStore.Application.csproj.CoreCompileInputs.cache
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\WebStore.Application.sourcelink.json
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\WebStore.Application.dll
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\refint\WebStore.Application.dll
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\WebStore.Application.pdb
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Application\obj\Debug\net8.0\ref\WebStore.Application.dll

@@ -1,0 +1,12 @@
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\bin\Debug\net8.0\WebStore.Domain.deps.json
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\bin\Debug\net8.0\WebStore.Domain.dll
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\bin\Debug\net8.0\WebStore.Domain.pdb
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\WebStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\WebStore.Domain.AssemblyInfoInputs.cache
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\WebStore.Domain.AssemblyInfo.cs
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\WebStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\WebStore.Domain.sourcelink.json
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\WebStore.Domain.dll
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\refint\WebStore.Domain.dll
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\WebStore.Domain.pdb
+C:\Users\imamniashvili\source\repos\WebStore\WebStore-Industry\WebStore.Domain\obj\Debug\net8.0\ref\WebStore.Domain.dll
