@@ -2,8 +2,7 @@
 using System.Linq.Expressions;
 using Webstore.Infrastructure;
 using WebStore.Application.Interfaces.Repositories;
-using WebStore.Domain;
-using WebStore.Domain.Interfaces;
+using IDisable = WebStore.Application.Interfaces.Repositories.IDisable;
 
 namespace WebStore.Infrastructure;
 internal abstract class BaseRepository<T> : IDisposable, IAsyncDisposable, IBaseRepository<T> where T : class

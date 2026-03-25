@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WebStore.Application.DTOs;
-using WebStore.Domain.Interfaces;
+using WebStore.Application.Interfaces.Repositories;
 
 namespace Webstore.Infrastructure;         
 
